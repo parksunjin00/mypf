@@ -4,11 +4,145 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
         <link rel="stylesheet" href="index.css">
-        <script src="index.js"></script>
     </head>
     
     <body>
-    
+
+        <!-- 커서 시작 -->
+        <div class="cursor"></div>
+        <div class="cursor-shadow"></div>
+
+        <div class="body-content">
+            <!-- 제이쿼리 로드 -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+            <script src="index.js"></script>
+
+            <!-- 사이드바 시작 -->
+            <aside class="side-bar">
+                <div class="side-bar__status-ico">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="side-bar_index">
+                    <div>
+                        <i></i>
+                    </div>
+                </div>
+                <nav class="side-bar__menu-box-1">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas"></i></span>
+                                <span>Project 1</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas"></i></span>
+                                <span>Project 2</span>
+                            </a>
+                        </li>
+                        <li class="flex flex-ai-e flex-grow-1">
+                            <a href="#">
+                                <span><i class="fas"></i></span>
+                                <span>EXIT</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <!-- 사이드바 끝 -->
+            <!--탑바 시작-->
+            <header>
+                <div class="top-bar">
+                    <div class="top-bar__left-box">
+                        <a href="#" class="top-bar__logo">
+                            Logo
+                        </a>
+                    </div>
+                    <div class="top-bar__right-box">
+                        <div class="top-bar__menu-box-1">
+                            <ul>
+                                <li><a href="#">아이템 1</a></li>
+                                <li><a href="#">아이템 2</a></li>
+                                <li><a href="#">아이템 3</a></li>
+                                <li>
+                                    <a href="#">아이템 4</a>
+                                    <ul>
+                                        <li><a href="#">아이템 4-1</a></li>
+                                        <li><a href="#">아이템 4-2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </header>
+
+            <!--탑바 끝-->
+            <br><br>
+            <!--타이틀 시작-->
+            <header class="title con-min-width">
+                <div class="cursor-big">
+                    <a style="font-family: 'HSSanTokki20-Regular'" href="#">
+                        <div>어서오너라</div>
+                    </a>
+                </div>
+            </header>
+            <!--타이틀 끝-->
+
+            <br><br><br>
+
+            <!--메뉴바 시작-->
+            <header class="menu-bar con-min-width">
+                <div class="con">
+                    <nav class="menu-bar__menu-box-1">
+                        <ul class="inline-grid">
+                            <li><a href="#" class="block">All</a></li>
+                            <li><a href="#" class="block">Product</a></li>
+                            <li><a href="#" class="block">Graphic</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <br>
+            <!--메뉴바 끝-->
+            <br>
+            <!--이미지 박스 시작-->
+            <section class="section-gallery con-min-width">
+                <div class="con">
+                    <div class="img-list-box">
+                        <ul class="flex flex-wrap">
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/1/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/2/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/3/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/4/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/5/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/6/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/7/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/8/300/300" alt=""></a>
+                            </li>
+                            <li><a href="#" class="block img-box"><img src="https://picsum.photos/id/9/300/300" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--이미지 박스 끝-->
+
+            
     </body>
 </html>
